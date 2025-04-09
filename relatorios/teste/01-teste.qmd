@@ -1,0 +1,71 @@
+---
+title: "Untitled"
+format:
+  html: 
+    toc: true
+    number-sections: true
+editor: source
+---
+
+# Titulo Principal 
+
+## Sunseção
+
+texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto texto texto texto texto texto texto texto texto texto texto texto texto.
+
+texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto texto texto texto texto texto texto texto texto texto texto texto texto.
+
+*expressão em itálico,* **expressão em negrito**
+
+
+## Criando uma lista não ordenada
+
+- item 1
+
+- item 2
+
+    - subitem 1
+    - subitem 2
+    
+# Criando uma lista ordena
+
+1. item 1
+ 
+2. item 2
+
+3. item 3
+
+
+## Inserindo links para páginas da web
+
+[IFMG - Campus Formiga](https://www.formiga.ifmg.edu.br/){target="_blank"}
+
+
+## Escrevendo Matemática
+Integral:
+
+$$
+\int_{a}^{b} f(x) ddx
+$$
+
+
+## Celulas de codigo
+
+Para inserir uma célular  de código R em um arquivo quarto, podemos usar o atalho 'ctrl + alt + i':
+
+
+```{r}
+# simulando uma VA com distribuição normal padrão
+x <- rnorm(1000)
+
+# gráfico de linha da variável simulada
+plot(x, type = "l")
+```
+
+
+
+
+
+
